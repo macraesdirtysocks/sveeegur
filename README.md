@@ -25,6 +25,14 @@ The idea of this program is to supply a csv of links to svg urls and have the cs
 * Converts a csv of svg links to png links hosted on imgur.
 * csv is used as a way to keep links organized. As mentioned above imgur returns 6 links for each upload so it can get tendious or manual to keep them organized.
 * csv can be easily be connected and blended in Data Studio/Looker.
+* New column names will be imgur return values appended with column names supplied to sveeegur as svg_col arguments.
+  * Example svg_col_name = ["flag"] will create columns:
+    * link_small_square_flag
+    * link_big_square_flag
+    * link_small_thumbnail_flag
+    * link_medium_thumbnail_flag
+    * link_large_thumbnail_flag
+    * link_huge_thumbnail_flag
 
 ## Getting Started
 
@@ -47,7 +55,7 @@ Please be aware the imgur api is a little fussy about quick uploads and the time
 ## Example Usage
 
 ```python
-sveeger(
+sveeegur(
   my_client_id, 
   my_client_secret, 
   "~/Desktop/csv_or_svg_links.csv", 
