@@ -41,8 +41,8 @@ Please be aware the imgur api is a little fussy about quick uploads and the time
   * client_secret - imgur client secret
   * input_csv - csv with links of svg images
   * svg_cols - columns in input_csv that are svg image links
-  * png_images_dir - output path for png images
-  * output_csv - output path for new csv with png links
+  * png_images_dir - output directory for png images
+  * output_csv - output file path for new csv with png links
 
 ## Example Usage
 

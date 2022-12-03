@@ -1,10 +1,10 @@
 import csv
 from time import sleep
-from src.utils import process_svg_image_url, create_imgur_client
-from settings import IMAGE_LINKS
+from sveeegur.src.utils import process_svg_image_url, create_imgur_client
+from sveeegur.settings import IMAGE_LINKS
 
 
-def sveeeger(
+def sveeegur(
     client_id: str,
     client_secret: str,
     input_csv: str,
