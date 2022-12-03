@@ -30,7 +30,7 @@ The idea of this program is to supply a csv of links to svg urls and have the cs
 
 The project is ready to run as is.  In your preferred directory run:
 
-```git clone```
+```git clone https://github.com/macraesdirtysocks/sveeegur.git```
 
 ## Overview of functionality
 
